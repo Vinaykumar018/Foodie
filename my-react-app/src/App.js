@@ -8,6 +8,8 @@ import Team from './Components/Team';
 import Booking from './Components/Booking';
 
 import Contact from './Components/Contact';
+import Testimonal  from './Components/Testimonal'
+
 
 
 
@@ -23,6 +25,7 @@ const App = () => {
         <Route path="/team" element={<Team/>} />
         <Route path="/booking" element={<Booking></Booking>}/>
         <Route path="/menu" element={<Menu />} />
+        <Route path="/testimonial" element={<Testimonal/>} />
 
       </Routes>
      

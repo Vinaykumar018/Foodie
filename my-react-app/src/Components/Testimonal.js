@@ -29,30 +29,29 @@ const Testimonal = () => {
      <>
   <div className="container-xxl position-relative p-0">
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-      <Link href className="navbar-brand p-0">
-        <h1 className="text-primary m-0"><i className="fa fa-utensils me-3" />Restoran</h1>
-        {/* <img src="img/logo.png" alt="Logo"> */}
-      </Link>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span className="fa fa-bars" />
-      </button>
-      <div className="collapse navbar-collapse" id="navbarCollapse">
-        <div className="navbar-nav ms-auto py-0 pe-4">
-          <Link to="index.html" className="nav-item nav-link">Home</Link>
-          <Link to="about.html" className="nav-item nav-link">About</Link>
-          <Link to="service.html" className="nav-item nav-link">Service</Link>
-          <Link to="menu.html" className="nav-item nav-link">Menu</Link>
-          <div className="nav-item dropdown">
-            <Link to="#" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</Link>
-            <div className="dropdown-menu m-0">
-              <Link to="booking.html" className="dropdown-item">Booking</Link>
-              <Link to="team.html" className="dropdown-item">Our Team</Link>
-              <Link to="testimonial.html" className="dropdown-item active">Testimonial</Link>
+    <Link to="/" className="navbar-brand p-0">
+            <h1 className="text-primary m-0"><i className="fa fa-utensils me-3"></i>Restoran</h1>
+          </Link>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span className="fa fa-bars"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="navbar-nav ms-auto py-0 pe-4">
+              <Link to="/" className="nav-item nav-link">Home</Link>
+              <Link to="/about" className="nav-item nav-link ">About</Link>
+              <Link to="/service" className="nav-item nav-link">Service</Link>
+              <Link to="/menu" className="nav-item nav-link">Menu</Link>
+              <div className="nav-item dropdown">
+                <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
+                <div className="dropdown-menu m-0">
+                  <Link to="/booking" className="dropdown-item">Booking</Link>
+                  <Link to="/team" className="dropdown-item">Our Team</Link>
+                  <Link to="/testimonial" className="dropdown-item active">Testimonial</Link>
+                </div>
+              </div>
+              <Link to="/contact" className="nav-item nav-link">Contact</Link>
             </div>
-          </div>
-          <Link to="contact.html" className="nav-item nav-link">Contact</Link>
-        </div>
-        <Link href className="btn btn-primary py-2 px-4">Book A Table</Link>
+           <Link to="/booking" className="btn btn-primary py-2 px-4">Book A Table</Link>
       </div>
     </nav>
     <div className="container-xxl py-5 bg-dark hero-header mb-5">
@@ -70,60 +69,43 @@ const Testimonal = () => {
   </div>
   {/* Navbar & Hero End */}
   {/* Testimonial Start */}
-  <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div className="container">
-      <div className="text-center">
-        <h5 className="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
-        <h1 className="mb-5">Our Clients Say!!!</h1>
-      </div>
-      <div className="owl-carousel testimonial-carousel">
-        <div className="testimonial-item bg-transparent border rounded p-4">
-          <i className="fa fa-quote-left fa-2x text-primary mb-3" />
-          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-          <div className="d-flex align-items-center">
-            <img className="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style={{width: 50, height: 50}} />
-            <div className="ps-3">
-              <h5 className="mb-1">Client Name</h5>
-              <small>Profession</small>
+  (
+    <div className="container py-5">
+      <div className="row">
+        <div className="col-md-8 mx-auto">
+          <h2 className="text-center mb-4">Testimonials</h2>
+          <div className="card-group">
+            <div className="card">
+              <img src="img/testimonial-1.jpg" className="card-img-top" alt="Testimonial 1" />
+              <div className="card-body">
+                <p className="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel arcu eget mauris bibendum gravida nec vitae dolor."</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">- John Doe, CEO of Company ABC</small>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="testimonial-item bg-transparent border rounded p-4">
-          <i className="fa fa-quote-left fa-2x text-primary mb-3" />
-          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-          <div className="d-flex align-items-center">
-            <img className="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style={{width: 50, height: 50}} />
-            <div className="ps-3">
-              <h5 className="mb-1">Client Name</h5>
-              <small>Profession</small>
+            <div className="card">
+              <img src="img/testimonial-2.jpg" className="card-img-top" alt="Testimonial 2" />
+              <div className="card-body">
+                <p className="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">- Jane Smith, Marketing Manager at XYZ Inc.</small>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="testimonial-item bg-transparent border rounded p-4">
-          <i className="fa fa-quote-left fa-2x text-primary mb-3" />
-          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-          <div className="d-flex align-items-center">
-            <img className="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style={{width: 50, height: 50}} />
-            <div className="ps-3">
-              <h5 className="mb-1">Client Name</h5>
-              <small>Profession</small>
-            </div>
-          </div>
-        </div>
-        <div className="testimonial-item bg-transparent border rounded p-4">
-          <i className="fa fa-quote-left fa-2x text-primary mb-3" />
-          <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
-          <div className="d-flex align-items-center">
-            <img className="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style={{width: 50, height: 50}} />
-            <div className="ps-3">
-              <h5 className="mb-1">Client Name</h5>
-              <small>Profession</small>
+            <div className="card">
+              <img src="img/testimonial-3.jpg" className="card-img-top" alt="Testimonial 3" />
+              <div className="card-body">
+                <p className="card-text">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+              </div>
+              <div className="card-footer">
+                <small className="text-muted">- Alex Johnson, Designer at Design Co.</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   {/* Testimonial End */}
   {/* Footer Start */}
   <div className="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">

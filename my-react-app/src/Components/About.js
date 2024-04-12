@@ -40,21 +40,21 @@ const About = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0 pe-4">
-              <Link to="index.html" className="nav-item nav-link">Home</Link>
-              <Link to="about.html" className="nav-item nav-link active">About</Link>
-              <Link to="service.html" className="nav-item nav-link">Service</Link>
-              <Link to="menu.html" className="nav-item nav-link">Menu</Link>
+              <Link to="/" className="nav-item nav-link">Home</Link>
+              <Link to="/about" className="nav-item nav-link active">About</Link>
+              <Link to="/service" className="nav-item nav-link">Service</Link>
+              <Link to="/menu" className="nav-item nav-link">Menu</Link>
               <div className="nav-item dropdown">
                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                 <div className="dropdown-menu m-0">
-                  <Link to="booking.html" className="dropdown-item">Booking</Link>
-                  <Link to="team.html" className="dropdown-item">Our Team</Link>
-                  <Link to="testimonial.html" className="dropdown-item">Testimonial</Link>
+                  <Link to="/booking" className="dropdown-item">Booking</Link>
+                  <Link to="/team" className="dropdown-item">Our Team</Link>
+                  <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
                 </div>
               </div>
-              <Link to="contact.html" className="nav-item nav-link">Contact</Link>
+              <Link to="/contact" className="nav-item nav-link">Contact</Link>
             </div>
-           <Link to="" className="btn btn-primary py-2 px-4">Book A Table</Link>
+           <Link to="booking" className="btn btn-primary py-2 px-4">Book A Table</Link>
           </div>
         </nav>
 
