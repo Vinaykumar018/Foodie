@@ -8,17 +8,16 @@ import Team from './Components/Team';
 import Booking from './Components/Booking';
 
 import Contact from './Components/Contact';
-import Testimonal  from './Components/Testimonal'
-
-
-
+import Testimonal  from './Components/Testimonal';
+import Login from './Components/Login';
 
 const App = () => {
   return (
     <Router>
       
       <Routes>
-        <Route path="/" element={<Navbar />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Navbar />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />

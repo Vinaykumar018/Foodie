@@ -45,7 +45,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0 pe-4">
-              <Link to="/" className="nav-item nav-link">Home</Link>
+              <Link to="/home" className="nav-item nav-link">Home</Link>
               <Link to="/about" className="nav-item nav-link ">About</Link>
               <Link to="/service" className="nav-item nav-link">Service</Link>
               <Link to="/menu" className="nav-item nav-link">Menu</Link>
@@ -60,6 +60,7 @@ const Navbar = () => {
               <Link to="/contact" className="nav-item nav-link">Contact</Link>
             </div>
            <Link to="/booking" className="btn btn-primary py-2 px-4">Book A Table</Link>
+           <Link to="/" className="btn btn-primary py-2 px-4 mx-2">Login</Link>
                 </div>
             </nav>
 

@@ -38,7 +38,7 @@ const Booking = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0 pe-4">
-              <Link to="" className="nav-item nav-link">Home</Link>
+              <Link to="/home" className="nav-item nav-link">Home</Link>
               <Link to="/about" className="nav-item nav-link ">About</Link>
               <Link to="/service" className="nav-item nav-link">Service</Link>
               <Link to="/menu" className="nav-item nav-link">Menu</Link>
@@ -69,10 +69,7 @@ const Booking = () => {
                 </div>
             </div>
         </div>
-      
-
-
-       
+    
         <div className="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div className="row g-0">
                 <div className="col-md-6">
