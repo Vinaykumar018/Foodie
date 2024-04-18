@@ -60,7 +60,6 @@ const Navbar = () => {
               <Link to="/contact" className="nav-item nav-link">Contact</Link>
             </div>
            <Link to="/booking" className="btn btn-primary py-2 px-4">Book A Table</Link>
-           <Link to="/" className="btn btn-primary py-2 px-4 mx-2">Login</Link>
                 </div>
             </nav>
 

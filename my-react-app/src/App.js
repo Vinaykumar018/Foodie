@@ -10,6 +10,7 @@ import Booking from './Components/Booking';
 import Contact from './Components/Contact';
 import Testimonal  from './Components/Testimonal';
 import Login from './Components/Login';
+import Signup from './Components/Signup';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/home" element={<Navbar />} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
