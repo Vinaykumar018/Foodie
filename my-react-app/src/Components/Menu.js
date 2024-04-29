@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import '../ComponentCss/Menu.css';
 
 const Menu = () => {
     const [loading, setLoading] = useState(true);
@@ -69,8 +70,8 @@ const Menu = () => {
         </div>
         {/* Navbar & Hero End */}
         {/* Menu Start */}
-        <div className="container-xxl py-5">
-          <div className="container">
+        <div className="container-xxl py-2">
+          <div className="container-fluid px-5">
             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
               <h5 className="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
               <h1 className="mb-5">Most Popular Items</h1>
@@ -404,6 +405,237 @@ const Menu = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid-container my-5">
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sit?</p>
+                    <p className="card-text"><small className=" text-style" style={{ color: "rgb(254,161,22)" }}>$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem.</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, placeat?</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, earum?</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatibus, ea!</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, temporibus.</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, porro.</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
+                  </div>
+                </div>
+              </div>
+              <div className="grid-item">
+                <div className="card border-0 shadow">
+                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className="card-body">
+                    <div className="row d-flex">
+                      <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
+                      <p className='col-md-6'>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star text-warning"></span>
+                        <span className="fas fa-star-half-alt text-warning"></span>
+                      </p>
+                    </div>
+                    <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, porro.</p>
+                    <p className="card-text"><small className=" text-style">$12</small></p>
                   </div>
                 </div>
               </div>

@@ -11,6 +11,8 @@ import Contact from './Components/Contact';
 import Testimonal  from './Components/Testimonal';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
+import Card from './Components/Card';
+// import PaymentForm from './Components/Checkout';
 
 const App = () => {
   return (
@@ -23,6 +25,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/card" element={<Card />} />
         <Route path="/team" element={<Team/>} />
         <Route path="/booking" element={<Booking></Booking>}/>
         <Route path="/menu" element={<Menu />} />

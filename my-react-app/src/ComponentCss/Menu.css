@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    gap: 2rem 1rem;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .grid-item{
+    border-radius: 25px;
+  }
+  .text-style{
+    color:rgb(254,161,22);
+    font-size: 24px;
+  }

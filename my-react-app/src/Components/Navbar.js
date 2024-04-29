@@ -55,6 +55,7 @@ const Navbar = () => {
                   <Link to="/booking" className="dropdown-item">Booking</Link>
                   <Link to="/team" className="dropdown-item">Our Team</Link>
                   <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
+                  <Link to="/card" className="dropdown-item">Cart</Link>
                 </div>
               </div>
               <Link to="/contact" className="nav-item nav-link">Contact</Link>
