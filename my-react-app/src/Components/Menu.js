@@ -106,6 +106,45 @@ const Menu = () => {
                   </Link>
                 </li>
               </ul>
+
+              <div className="category-item-container">
+                <div className='row d-flex justify-content-center align-content-center'>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-1.jpg" alt style={{width: 80}} />
+                    <span>Salad</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-2.jpg" alt style={{width: 80}} />
+                    <span>Rolls</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-3.jpg" alt style={{width: 80}} />
+                    <span>Deserts</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-4.jpg" alt style={{width: 80}} />
+                    <span>Sandwich</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-5.jpg" alt style={{width: 80}} />
+                    <span>Cake</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-6.jpg" alt style={{width: 80}} />
+                    <span>Pure Veg</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-7.jpg" alt style={{width: 80}} />
+                    <span>Pasta</span>
+                  </div>
+                  <div className='col-1'>
+                    <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-8.jpg" alt style={{width: 80}} />
+                    <span>Noodles</span>
+                  </div>
+                </div>
+              </div>
+              <hr className='line-clr my-5'/>
+
               <div className="tab-content">
                 <div id="tab-1" className="tab-pane fade show p-0 active">
                   <div className="row g-4">
@@ -433,7 +472,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -459,7 +498,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -485,7 +524,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -511,7 +550,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, cum?</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -537,7 +576,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sit?</p>
-                    <p className="card-text"><small className=" text-style" style={{ color: "rgb(254,161,22)" }}>$12</small></p>
+                    <p className="card-text"><span className="text-primary">$12</span></p>
                   </div>
                 </div>
               </div>
@@ -563,7 +602,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolorem.</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -589,7 +628,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, placeat?</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -615,7 +654,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, earum?</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -641,7 +680,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptatibus, ea!</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -667,7 +706,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, temporibus.</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -693,7 +732,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, porro.</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
@@ -719,7 +758,7 @@ const Menu = () => {
                       </p>
                     </div>
                     <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, porro.</p>
-                    <p className="card-text"><small className=" text-style">$12</small></p>
+                    <p className="card-text"><h5><span className=" text-primary">$12</span></h5></p>
                   </div>
                 </div>
               </div>
