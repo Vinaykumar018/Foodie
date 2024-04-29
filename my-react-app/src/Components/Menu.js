@@ -413,7 +413,14 @@ const Menu = () => {
             <div className="grid-container my-5">
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -432,7 +439,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -451,7 +465,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -470,7 +491,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -489,7 +517,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -508,7 +543,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -527,7 +569,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -546,7 +595,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -565,7 +621,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -584,7 +647,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -603,7 +673,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
@@ -622,7 +699,14 @@ const Menu = () => {
               </div>
               <div className="grid-item">
                 <div className="card border-0 shadow">
-                  <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                  <div className='' style={{position:"relative"}}>
+                    <img className="card-img-top" src="img/about-4.jpg" alt="Card image cap" style={{width: "100%"}}/>
+                    <div className='bg-white add-minus p-1'>
+                      <span className='px-1 mx-1 border-end' style={{cursor:"pointer"}}>-</span>
+                      <span className='mx-2'>{1}</span>
+                      <span className='px-1 mx-1 border-start' style={{cursor:"pointer"}}>+</span>
+                    </div>
+                  </div>
                   <div className="card-body">
                     <div className="row d-flex">
                       <h6 className="col-md-6 card-title mt-1">Veg Pried Rice</h6>
