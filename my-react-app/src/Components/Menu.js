@@ -1,75 +1,43 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../ComponentCss/Menu.css';
+import axios from 'axios';
 
-const Menu = () => {
+const Booking = () => {
     const [loading, setLoading] = useState(true);
+    const [foods, setFoods] = useState([]);
 
     useEffect(() => {
-      // Simulate loading delay
-      const timeout = setTimeout(() => {
-        setLoading(false);
-      }, 2000); // Adjust the duration as needed
-  
-      // Cleanup function to clear the timeout
-      return () => clearTimeout(timeout);
-    }, []);
-    return (
-        <div className="container-xxl bg-white p-0">
-        {loading && (
+        const fetchData = async () => {
+            try {
+                const response = await axios.get('http://localhost:5000/api/foods');
+                setFoods(response.data);
+                setLoading(false);
+            } catch (error) {
+                console.error('Error fetching food data:', error.message);
+            }
+        };
 
-<div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div className="spinner-border text-primary" style={{width: "3rem", height: "3rem" }} role="status">
-    <span className="sr-only">Loading...</span>
-</div>
-</div>
-        )}
-        {/* Spinner End */}
-        {/* Navbar & Hero Start */}
-        {!loading && (
-     <>
-        <div className="container-xxl position-relative p-0">
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-          <Link to="/" className="navbar-brand p-0">
-            <h1 className="text-primary m-0"><i className="fa fa-utensils me-3"></i>Restoran</h1>
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span className="fa fa-bars"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav ms-auto py-0 pe-4">
-              <Link to="/home" className="nav-item nav-link">Home</Link>
-              <Link to="/about" className="nav-item nav-link ">About</Link>
-              <Link to="/service" className="nav-item nav-link">Service</Link>
-              <Link to="/menu" className="nav-item nav-link active">Menu</Link>
-              <div className="nav-item dropdown">
-                <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
-                <div className="dropdown-menu m-0">
-                  <Link to="/booking" className="dropdown-item">Booking</Link>
-                  <Link to="/team" className="dropdown-item">Our Team</Link>
-                  <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
-                </div>
-              </div>
-              <Link to="/contact" className="nav-item nav-link">Contact</Link>
-            </div>
-           <Link to="/booking" className="btn btn-primary py-2 px-4">Book A Table</Link>
-            </div>
-          </nav>
-          <div className="container-xxl py-5 bg-dark hero-header mb-5">
-            <div className="container text-center my-5 pt-5 pb-4">
-              <h1 className="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
-              <nav aria-label="breadcrumb">
-                <ol className="breadcrumb justify-content-center text-uppercase">
-                  <li className="breadcrumb-item"><Link to="#">Home</Link></li>
-                  <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
-                  <li className="breadcrumb-item text-white active" aria-current="page">Menu</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-        {/* Navbar & Hero End */}
-        {/* Menu Start */}
+        fetchData();
+    }, []);
+
+    const truncateDescription = (text, maxLength) => {
+        if (text.length > maxLength) {
+            return text.substring(0, maxLength) + '...';
+        }
+        return text;
+    };
+
+    const handleHalfButtonClick = (foodId) => {
+        // Handle the half button click event
+        console.log(`Half button clicked for food with ID ${foodId}`);
+    };
+
+    const handleFullButtonClick = (foodId) => {
+        // Handle the full button click event
+        console.log(`Full button clicked for food with ID ${foodId}`);
+    };
+
+    return (
         <div className="container-xxl py-2">
           <div className="container-fluid px-5">
             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -109,35 +77,35 @@ const Menu = () => {
 
               <div className="category-item-container">
                 <div className='row d-flex justify-content-center align-content-center'>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-1.jpg" alt style={{width: 80}} />
                     <span>Salad</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-2.jpg" alt style={{width: 80}} />
                     <span>Rolls</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-3.jpg" alt style={{width: 80}} />
                     <span>Deserts</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-4.jpg" alt style={{width: 80}} />
                     <span>Sandwich</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-5.jpg" alt style={{width: 80}} />
                     <span>Cake</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-6.jpg" alt style={{width: 80}} />
                     <span>Pure Veg</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-7.jpg" alt style={{width: 80}} />
                     <span>Pasta</span>
                   </div>
-                  <div className='col-1 mx-1'>
+                  <div className='col-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-8.jpg" alt style={{width: 80}} />
                     <span>Noodles</span>
                   </div>
@@ -828,12 +796,7 @@ const Menu = () => {
             </div>
           </div>
         </div>
-        {/* Footer End */}
-        {/* Back to Top */}
-        <Link to="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up" /></Link>
-        </>)} </div>
-      
     );
-}
+};
 
-export default Menu;
+export default Booking;
