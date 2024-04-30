@@ -109,35 +109,35 @@ const Menu = () => {
 
               <div className="category-item-container">
                 <div className='row d-flex justify-content-center align-content-center'>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-1.jpg" alt style={{width: 80}} />
                     <span>Salad</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-2.jpg" alt style={{width: 80}} />
                     <span>Rolls</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-3.jpg" alt style={{width: 80}} />
                     <span>Deserts</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-4.jpg" alt style={{width: 80}} />
                     <span>Sandwich</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-5.jpg" alt style={{width: 80}} />
                     <span>Cake</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-6.jpg" alt style={{width: 80}} />
                     <span>Pure Veg</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-7.jpg" alt style={{width: 80}} />
                     <span>Pasta</span>
                   </div>
-                  <div className='col-1'>
+                  <div className='col-1 mx-1'>
                     <img className="flex-shrink-0 img-fluid rounded-circle m-1" src="img/menu-8.jpg" alt style={{width: 80}} />
                     <span>Noodles</span>
                   </div>
