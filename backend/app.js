@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({origin:'*'}))
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect('mongodb://localhost:27017/RESTAURENT-APP', {
+mongoose.connect('mongodb+srv://vk6056902:9936616326@restaurentapp.qiburps.mongodb.net/RestaurentappData', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {

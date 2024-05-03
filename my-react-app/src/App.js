@@ -7,6 +7,7 @@ import Menu from './Components/Menu';
 import Team from './Components/Team';
 import Booking from './Components/Booking';
 import Contact from './Components/Contact';
+import Testimonal from './Components/Testimonal'
 
 import Login from './Components/Login';
 import Signup from './Components/Signup';
@@ -27,7 +28,7 @@ const App = () => {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/home" element={<Navbar />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />

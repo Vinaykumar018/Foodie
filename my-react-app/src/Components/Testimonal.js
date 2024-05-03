@@ -69,7 +69,7 @@ const Testimonal = () => {
   </div>
   {/* Navbar & Hero End */}
   {/* Testimonial Start */}
-  (
+  
     <div className="container py-5">
       <div className="row">
         <div className="col-md-8 mx-auto">

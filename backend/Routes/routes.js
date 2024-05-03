@@ -14,7 +14,7 @@ router.post('/logout', authControl.logout);
 router.get('/foods', async (req, res) => {
     try {
       // Access the 'Dynamic-data' collection in the MongoDB database
-      const dynamicDataCollection = mongoose.connection.db.collection('Dynamic-data');
+      const dynamicDataCollection = mongoose.connection.db.collection('MainData');
   
       // Fetch all documents from the 'Dynamic-data' collection
       const foods = await dynamicDataCollection.find({}).toArray();
